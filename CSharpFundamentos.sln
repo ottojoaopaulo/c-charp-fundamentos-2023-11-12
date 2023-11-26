@@ -24,6 +24,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp07StringMetodos", "Cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp08While", "CSharp08While\CSharp08While.csproj", "{781906A4-2223-4EB7-B185-39D0E9860F59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp09Arquivo", "CSharp09Arquivo\CSharp09Arquivo.csproj", "{F3454D10-0A62-4777-808D-54FFD797DDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Vetores", "CSharp10Vetores\CSharp10Vetores.csproj", "{FA95F12A-146E-4D66-9FE0-8E3506C358A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,14 @@ Global
 		{781906A4-2223-4EB7-B185-39D0E9860F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781906A4-2223-4EB7-B185-39D0E9860F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781906A4-2223-4EB7-B185-39D0E9860F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3454D10-0A62-4777-808D-54FFD797DDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3454D10-0A62-4777-808D-54FFD797DDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3454D10-0A62-4777-808D-54FFD797DDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3454D10-0A62-4777-808D-54FFD797DDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA95F12A-146E-4D66-9FE0-8E3506C358A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA95F12A-146E-4D66-9FE0-8E3506C358A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA95F12A-146E-4D66-9FE0-8E3506C358A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA95F12A-146E-4D66-9FE0-8E3506C358A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
