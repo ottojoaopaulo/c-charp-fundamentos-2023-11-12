@@ -40,5 +40,5 @@ catch (Exception e)
 {
     Console.WriteLine("Peso não e um valor real valido");
 }
-
+//teste
 Console.WriteLine("Nome " + nome "\nIdade" + idade "\npeso" + peso);
