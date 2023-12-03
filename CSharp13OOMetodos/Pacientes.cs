@@ -2,8 +2,8 @@
 
 public class Paciente
 {
-	public Paciente()
-	{ 
+	public Paciente();
+		}
 		public string Nome { get; set; }
 		public string Cpf { get; set; }
 		public double Altura { get; set; }
@@ -66,11 +66,11 @@ public void ObterClassificacaoGeracao()
 	}
 	else if (anoNascimento < 2010)
 	{
-		geracao = "Geracao Z"
+		geracao = "Geracao Z";
 	}
 	else
 	{
-		geracao = "Geracao Alpha"
+		geracao = "Geracao Alpha";
 	}
 	return geracao;
 }
