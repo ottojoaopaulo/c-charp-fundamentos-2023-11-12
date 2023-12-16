@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharp12TratamentoExcesoescomWhile": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

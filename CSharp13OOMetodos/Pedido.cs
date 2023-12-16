@@ -8,17 +8,22 @@ namespace CSharp13OOMetodos
 {
     internal class Pedido
     {
+        //propriedades do Pedido
         public string Nome { get; set; }
+        public int Quantidade { get; set; }
+        public double PrecoUnitario { get; set; }
+        //Metodo para calcular o total do pedido, desta forma centralizando o calculo da quantidade * preco
 
-        public int Quantidade { get; set;}
-
-        public double PrecoUnitario { get; set;}
-
-        public void CalcularTotalPedido()
+        public double CalcularTotalPedido()
         {
-             double total = quantidade * PrecoUnitario;
+            double total = Quantidade * PrecoUnitario;
 
-             return total;
+            //Retorna o valor calculado do total, para que seja possivel obter
+            //o valor calculado por quem chama esse metodo
+            return total;
         }
+
+       
     }
+
 }

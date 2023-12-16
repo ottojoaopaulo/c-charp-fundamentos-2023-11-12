@@ -15,14 +15,14 @@
 
 //Console.WriteLine("Programa encerrou corretamente");
 
-Console.Write("Digite o nome");
+Console.Write("\n\nDigite o nome: ");
 string nome = Console.ReadLine();
 int idade = 0;
 
 try
 {
-    Console.WriteLine("Digite sua idade");
-    idade = Convert .ToInt32(Console.ReadLine());
+    Console.Write("Digite sua idade: ");
+    idade = Convert.ToInt32(Console.ReadLine());
 }
 catch (Exception e)
 {
@@ -33,7 +33,7 @@ double peso = 0;
 
 try
 {
-    Console.WriteLine("Digite o seu peso");
+    Console.Write("Digite o seu peso: ");
     peso = Convert.ToDouble(Console.ReadLine());
 }
 catch (Exception e)
@@ -41,4 +41,4 @@ catch (Exception e)
     Console.WriteLine("Peso não e um valor real valido");
 }
 //teste
-Console.WriteLine("Nome " + nome "\nIdade" + idade "\npeso" + peso);
+Console.WriteLine("Nome: " + nome + "\nIdade: " + idade + "\npeso: " + peso);

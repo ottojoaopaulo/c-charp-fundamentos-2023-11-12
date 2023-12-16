@@ -8,7 +8,7 @@ namespace CSharp13OOMetodos
 {
     internal class Cachorro
     {
-        //propriedades caracteristicas
+        //Propriedades (Caracteristicas)
         public string Nome { get; set; }
         public int Idade { get; set; }
         public string Raca { get; set; }

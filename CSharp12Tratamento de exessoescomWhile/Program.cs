@@ -9,7 +9,7 @@ while (idadeValida == false)
         idade = Convert.ToInt32(Console.ReadLine());
         if (idade < 0)
         {
-            Console.Write("idade náo pode ser negativa");
+            Console.WriteLine("idade náo pode ser negativo");
             continue;
         }
         if (idade > 120)
@@ -34,11 +34,11 @@ while (pesoValido == false)
 {
     try
     {
-        Console.WriteLine("Digite o peso");
-        peso = Convert.ToInt32(Console.ReadLine().ToUpper().Replace("KG", "");
+        Console.Write("Digite o peso: ");
+        peso = Convert.ToDouble(Console.ReadLine().ToUpper().Replace("KG", ""));
         if (peso <= 0.99)
         {
-            Console.Write("peso minimo e de 1kG");
+            Console.WriteLine("peso minimo e de 1kG");
             continue;
         }
         if (peso > 400)
