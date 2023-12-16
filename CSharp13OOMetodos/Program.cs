@@ -9,5 +9,9 @@ using CSharp13OOMetodos.Exemplos;
 //exemplo02.Executar();
 
 //Instanciar o projeto de classe Exemplo03
-Exemplo03 exemplo03 = new Exemplo03();
-exemplo03.Executar();
+//Exemplo03 exemplo03 = new Exemplo03();
+//exemplo03.Executar();
+
+//Instanciar o projeto de classe Exercicio01
+Exercicio01 exercicio01 = new Exercicio01();
+exercicio01.Executar();
