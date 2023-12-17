@@ -36,6 +36,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp13OOMetodos", "CSharp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp14For", "Csharp14For\Csharp14For.csproj", "{3B2091EB-672E-442A-BE12-E769B6096184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp15ForcomVetor", "Csharp15ForcomVetor\Csharp15ForcomVetor.csproj", "{71E85687-6EB3-4F75-AE90-2CF203095364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp16ListasTiposPrimitivos", "Csharp16ListasTiposPrimitivos\Csharp16ListasTiposPrimitivos.csproj", "{73D133A2-FBCE-4830-878A-2D5A6C29164A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +102,14 @@ Global
 		{3B2091EB-672E-442A-BE12-E769B6096184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2091EB-672E-442A-BE12-E769B6096184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2091EB-672E-442A-BE12-E769B6096184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E85687-6EB3-4F75-AE90-2CF203095364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E85687-6EB3-4F75-AE90-2CF203095364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E85687-6EB3-4F75-AE90-2CF203095364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E85687-6EB3-4F75-AE90-2CF203095364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D133A2-FBCE-4830-878A-2D5A6C29164A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D133A2-FBCE-4830-878A-2D5A6C29164A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D133A2-FBCE-4830-878A-2D5A6C29164A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D133A2-FBCE-4830-878A-2D5A6C29164A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
